@@ -1,0 +1,22 @@
+POST http://localhost:8080/api/evos/auth/signUp
+Content-Type: application/json
+
+{
+   "phone" : "123",
+  "password": "123"
+}
+
+###
+
+POST http://localhost:8080/api/evos/auth/signIn
+Content-Type: application/json
+
+{
+  "phone" : "123",
+  "password": "123"
+}
+
+###
+GET http://localhost:8080/api/evos/category/get
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiUk9MRV9VU0VSIiwic3ViIjoiMTIzIiwiaWF0IjoxNzI0OTQ4ODk0LCJleHAiOjE3MjUwMzUyOTR9.2e4ZSlYk-QXfSit0gdCOP08lG7RU3pvFeSNYP0HRluA
